@@ -10,3 +10,12 @@ dotnet watch
 The web pages are stored in **TheCleaningLadies/Pages**
 
 [This tutorial might be useful](https://learn.microsoft.com/en-us/training/modules/create-razor-pages-aspnet-core/?WT.mc_id=dotnet-35129-website)
+
+Refer to this for the team roles
+```
+TEAM.md
+```
+Refer to this for the activity list
+```
+Process.md
+````
