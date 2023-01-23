@@ -19,3 +19,8 @@ Refer to this for the activity list
 ```
 Process.md
 ````
+
+## Credits
+- Emily O'Connell (Github: Emily421, Email: emilyroconnell@lewisu.edu)
+- Katheryn Knutson (Github: katherynmk, Email: katherynmknutson@lewisu.edu)
+- Cammie Esguerra (Github: Cahmomille, Email: camilleaesguerra@lewisu.edu) 
