@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\katie\OneDrive\Documents\Capstone\capstone\TheCleaningLadies
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/katie/OneDrive/Documents/Capstone/capstone/TheCleaningLadies/Pages/Buyer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV5ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/katie/OneDrive/Documents/Capstone/capstone/TheCleaningLadies/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
