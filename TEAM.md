@@ -8,4 +8,4 @@ The team will reference a google doc for the sprint's activity list.
 The activity list will then be moved to github.
 The team will meet every thursday on discord at 2:00pm, either Emily or Cammie
 will go in person.
-The team will commnicate regularly on discord for any comments and questions.
+The team will communicate regularly on discord for any comments and questions.
