@@ -1,3 +1,14 @@
+Sprint 1 DEMOS:
+Emily did well on the template
+Katie navigated the template and provided directions
+Cammie did decals and designs
+
+GOOD WORK
+GOOD COMMUNICATION
+FAST WORK
+
+IMPROVE: team meeting 
+
 Sprint 2:
 
 Main objective: Create a Basic View of the Site from both perspectives
