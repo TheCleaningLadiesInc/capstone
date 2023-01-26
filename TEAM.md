@@ -9,3 +9,6 @@ The activity list will then be moved to github.
 The team will meet every thursday on discord at 2:00pm, either Emily or Cammie
 will go in person.
 The team will communicate regularly on discord for any comments and questions.
+
+SPRINT 1 REVIEW:
+Plan is working out and communication is good. Work is going on schedule. Initial template hurdle was difficult. Team is doing well.
