@@ -1,4 +1,5 @@
 CI/CD team philosophy and detailed implementation: 
+	
 	1. Documentation of the system process and configuration of product organization for repository, hosting, and deployment:
 		a. We will be launching our project on a hosting site like Azure, AWS, or Google. This allows any user, tester, or developer
 			to maintain the website. This also allows us as developers to see how the code will look/perform in real-time on the site. 
