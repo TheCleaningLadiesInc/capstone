@@ -22,8 +22,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                                                <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Buyer">Buyer</a>
+                        </li>
+                                       </li>
+                                                <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Seller">Seller</a>
+                        </li>
+                                       </li>
+                                                <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/ScheduleAppointment">ScheduleAppointment</a>
                         </li>
                     </ul>
                 </div>
@@ -35,7 +43,7 @@
             @RenderBody()
         </main>
     </div>
-
+</body>
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - TheCleaningLadies - <a asp-area="" asp-page="/Privacy">Privacy</a>
@@ -47,5 +55,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
-</body>
+
 </html>
