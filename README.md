@@ -2,7 +2,7 @@
 
 Our [MVP](The_Cleaning_Ladies_MVP.md)
 
-[CI/CD Integration Plan](CI_CD_Intergration_Plan.md)
+[CI/CD Integration Plan](CI_CD_Integration_Plan.md)
 
 [Download ASP.NET](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/install)
 
