@@ -30,6 +30,14 @@ Sprint 2 Demos:
 
 
 Sprint 3: 
-Katie: 
-Emily:
-Cammie
+As a user, I want a working website, so that I can use the product
+As user, I want to be able to access a website online at all times, so that I can conveniently use the product whenever I want to (Emily - 6 Hours)
+As a user, I want to be able to understand the website, so that I can easily and quickly use the product (Katie - 3 Hours)
+As a user, I want the website to look nice, so I will want to use the product and like the product (Cammie - 4 Hours)
+As a user, I want the website to look the same on every device, so I am not confused about using the product between my devices (Cammie - 4 Hours)
+
+As a buyer or a cleaner, I want certain features on the website, so that I can get use out of the product
+
+As a buyer, I want to be able to see cleaners in my area, so that I can find a new cleaner (Cammie - 4 Hours + Emily - 6 Hours)
+As a buyer, I want to be able to schedule cleaners online and at time, so that I have a convenient way to make new appointments (Katie - 9 Hours) 
+
