@@ -18665,6 +18665,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\Pages\\Doctor.cshtml",
+      "TargetPath": "Pages\\Doctor.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\Pages\\Manager.cshtml",
+      "TargetPath": "Pages\\Manager.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
