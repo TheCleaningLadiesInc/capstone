@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lAQlhpY0ofbK19ALJikI2M/fqWB0zQXYMVZhiIqNNiI=",
+  "Hash": "mM1B6RMvlU15eUdlu9fTtZ76chOm9AUxsz+iZgoz5LI=",
   "Source": "TheCleaningLadies",
   "BasePath": "_content/TheCleaningLadies",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\images\\avatar.jfif",
+      "SourceId": "TheCleaningLadies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\",
+      "BasePath": "_content/TheCleaningLadies",
+      "RelativePath": "images/avatar.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\images\\avatar2.png",
+      "SourceId": "TheCleaningLadies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\",
+      "BasePath": "_content/TheCleaningLadies",
+      "RelativePath": "images/avatar2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar2.png"
     },
     {
       "Identity": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\js\\site.js",

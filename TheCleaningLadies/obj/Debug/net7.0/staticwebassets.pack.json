@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\images\\avatar.jfif",
+      "PackagePath": "staticwebassets\\images\\avatar.jfif"
+    },
+    {
+      "Id": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\images\\avatar2.png"
+    },
+    {
       "Id": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
