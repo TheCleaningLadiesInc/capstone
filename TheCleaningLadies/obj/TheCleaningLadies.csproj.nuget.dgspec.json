@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
+    "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {
+    "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "projectName": "TheCleaningLadies",
-        "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\obj\\",
+        "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
