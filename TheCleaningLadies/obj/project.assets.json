@@ -8,24 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\katie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dogsa\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "projectUniqueName": "D:\\Projects\\AGAIN\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
       "projectName": "TheCleaningLadies",
-      "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
-      "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\Capstone\\capstone\\TheCleaningLadies\\obj\\",
+      "projectPath": "D:\\Projects\\AGAIN\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "packagesPath": "C:\\Users\\dogsa\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\AGAIN\\capstone\\TheCleaningLadies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\katie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dogsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
