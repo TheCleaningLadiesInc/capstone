@@ -8,24 +8,31 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cammi\\.nuget\\packages\\": {}
+    "C:\\Users\\katie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cammi\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
       "projectName": "TheCleaningLadies",
-      "projectPath": "C:\\Users\\cammi\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
-      "packagesPath": "C:\\Users\\cammi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cammi\\capstone-1\\TheCleaningLadies\\obj\\",
+      "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\cammi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\katie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
