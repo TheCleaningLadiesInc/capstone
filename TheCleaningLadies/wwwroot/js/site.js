@@ -15,9 +15,3 @@ function initMap() {
   }
   
   window.initMap = initMap;
-
-  var infowindow = new google.maps.InfoWindow({
-    content:"Hello World!"
-  });
-  
-  infowindow.open(map,marker);
