@@ -1,0 +1,36 @@
+﻿@page
+@model RazorPagesBuyerView.Pages.BuyerViewModel
+@{
+}
+<!--
+ license
+ Copyright 2019 Google LLC. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+-->
+<h1> Looking for a cleaner? </h1>
+  <div class="column">
+
+<form action="/action_page.php">
+  <label for="fname">State:</label><br>
+  <input type="text" id="fname" name="fname" value="Romeoville"><br>
+  <label for="lname">City:</label><br>
+  <input type="text" id="lname" name="lname" value="Illinois"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+  <div class="column-right">
+<div id="googleMap" style="width:80%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjYOkoQ5stObcKWAKAZBP1DjfztKIPW0Y&callback=myMap"></script>
+  </div>
+

@@ -184,3 +184,5 @@ D:\Projects\AGAIN\capstone\TheCleaningLadies\obj\Debug\net7.0\refint\TheCleaning
 D:\Projects\AGAIN\capstone\TheCleaningLadies\obj\Debug\net7.0\TheCleaningLadies.pdb
 D:\Projects\AGAIN\capstone\TheCleaningLadies\obj\Debug\net7.0\TheCleaningLadies.genruntimeconfig.cache
 D:\Projects\AGAIN\capstone\TheCleaningLadies\obj\Debug\net7.0\ref\TheCleaningLadies.dll
+C:\Users\katie\OneDrive\Documents\capstone-1\TheCleaningLadies\bin\Debug\net7.0\package-lock.json
+C:\Users\katie\OneDrive\Documents\capstone-1\TheCleaningLadies\bin\Debug\net7.0\package.json

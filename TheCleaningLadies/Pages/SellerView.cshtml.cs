@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorPagesManager.Pages
+namespace RazorPagesSellerView.Pages
 {
-    public class ManagerModel : PageModel
+    public class SellerViewModel : PageModel
     {
         public void OnGet()
         {

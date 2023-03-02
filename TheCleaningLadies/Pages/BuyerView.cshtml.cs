@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorPagesDoctor.Pages
+namespace RazorPagesBuyerView.Pages
 {
-    public class DoctorModel : PageModel
+    public class BuyerViewModel : PageModel
     {
         public void OnGet()
         {
