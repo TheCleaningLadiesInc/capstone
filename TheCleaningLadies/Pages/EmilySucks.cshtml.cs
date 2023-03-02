@@ -7,6 +7,10 @@ namespace RazorPagesEmilySucks.Pages
     {
         public void OnGet()
         {
+            
         }
+
+
     }
+
 }
