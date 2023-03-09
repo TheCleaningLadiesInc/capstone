@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 60px;
 }
 
@@ -28,6 +29,12 @@ body {
   margin: 0;
   outline: none;
   padding: 0;
+}
+
+.WebContainer{
+  width:100%;
+  min-width:1000px;
+  height:auto;
 }
 
 /* Calender CSS */
@@ -141,8 +148,12 @@ body {
   padding-left: 15px;
 }
 
-.bg-img {
-  background-image: url("images/bannerbg.png");
+
+/* First image (Logo. Full height) */
+.bgimg {
+  background-image: url('images/bannerbg.png');
+  min-height: 50%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
