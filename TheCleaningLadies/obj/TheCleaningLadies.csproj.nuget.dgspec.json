@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
+    "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj": {
+    "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectUniqueName": "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "projectName": "TheCleaningLadies",
-        "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\TheCleaningLadies.csproj",
-        "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\capstone-1\\TheCleaningLadies\\obj\\",
+        "projectPath": "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "packagesPath": "C:\\Users\\dogsa\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\capstone\\TheCleaningLadies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\katie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\dogsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +42,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

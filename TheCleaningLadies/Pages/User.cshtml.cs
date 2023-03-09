@@ -15,22 +15,30 @@ namespace RazorPagesUser.Pages
 
         public void OnGet()
         {
-            users = UserService.GetAll();
+            //users = UserService.GetAll();
+            UserService userService = new UserService();
+
+            NewUser = userService.Get("Test");
         }
 
-        public IActionResult OnPost()
+        public IActionResult OnPost(string nusername, string npassword, string nlocation)
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-            UserService.Add(NewUser);
+            User addUser = new User(){
+                username = nusername,
+                password = npassword,
+                location = nlocation
+            };
+            UserService userService = new UserService();
+            userService.Create(addUser);
             return RedirectToAction("Get");
         }
 
-        public IActionResult OnPostDelete(int id)
+        public IActionResult OnPostDelete(string username)
         {
-            UserService.Delete(id);
             return RedirectToAction("Get");
         }
     }
