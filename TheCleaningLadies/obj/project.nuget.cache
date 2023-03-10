@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "bVu1e/WowNIadXXelhvx4Dzek87TdBVMYprTiGQu5nkxQ7Eu0e//AVfvRY3ziuEQ9vFPiDftk465wBVtZuofeg==",
+=======
+  "dgSpecHash": "oibr3LYiWuPsbeJiEX3UOzS4RgwwXKQE6ReOTT4oOxJl61Ut4mEEL5uHlUa2eEh+Cwl/OZtw79awxMTHwR2CeA==",
+>>>>>>> 7ae434a281f16a42f07f65e1272f0ac9a6403dbd
   "success": true,
   "projectFilePath": "C:\\Users\\cammi\\capstone\\capstone-2\\TheCleaningLadies\\TheCleaningLadies.csproj",
   "expectedPackageFiles": [

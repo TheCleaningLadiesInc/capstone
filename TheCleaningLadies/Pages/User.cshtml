@@ -34,12 +34,23 @@
             <th scope="col">Delete</th>
         </tr>
     </thead>
-            <tr>
+            <!--<tr>
             <td>@Model.NewUser.username</td>
             <td>@Model.NewUser.location</td>
             <td>
-            </td>
-        </tr>
+            </td>-->
+        @foreach (var user in Model.users)
+        {
+            <tr>
+                <td>@user.username</td>
+                <td>@user.location</td>
+                <tr>
+                <td>
+                    
+                </td>
+            </tr>
+            </tr>
+        }
 </table>
 
 @section Scripts {

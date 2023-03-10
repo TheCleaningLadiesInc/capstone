@@ -30,6 +30,8 @@ public class UserService
     //public static User? Get(string id) => theUsers.FirstOrDefault(u => u.id == id);
     public User Get(string username) => theUsers.Find(user => user.username == username).FirstOrDefault();
 
+    public List<User> GetList(string location) => theUsers.Find(user => user.location == location).ToList();
+
     public User Create(User user)
     {
         theUsers.InsertOne(user);

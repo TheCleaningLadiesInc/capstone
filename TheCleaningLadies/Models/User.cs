@@ -12,7 +12,7 @@ public class User
     public string? lastName { get; set; }*/
    [BsonId]
    [BsonRepresentation(BsonType.ObjectId)]
-   public string id { get; set;}
+   public string? id { get; set;}
    public string? username { get; set;}
 
    public string? password { get; set;}
