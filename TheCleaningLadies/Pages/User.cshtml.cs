@@ -18,7 +18,8 @@ namespace RazorPagesUser.Pages
             //users = UserService.GetAll();
             UserService userService = new UserService();
 
-            NewUser = userService.Get("Test");
+            //NewUser = userService.Get("Test");
+            users = userService.GetList("palos");
         }
 
         public IActionResult OnPost(string nusername, string npassword, string nlocation)
