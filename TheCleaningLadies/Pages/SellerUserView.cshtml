@@ -1,10 +1,11 @@
 ﻿@page
 @using RazorPagesUser.Models
-@model RazorPagesUser.Pages.SellerUserViewModel
+@model RazorPagesUser.Pages.KatiesButtonModel
 @{    
     ViewData["Title"] = "KATIE";
 }
-<h1>Looking for a specific cleaner?</h1>
+
+<h1>Users</h1>
 <form method="post" class="card p-3">
     <div class="row">
         <div asp-validation-summary="All"></div>
@@ -21,6 +22,7 @@
         <tr>
             <th scope="col">User Name</th>
             <th scope="col">Location</th>
+            <th scope="col">Schedule Appoitment</th>
         </tr>
     </thead>
             
@@ -41,3 +43,4 @@
 @section Scripts {
 <partial name="_ValidationScriptsPartial" />
 }
+
