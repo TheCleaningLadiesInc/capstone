@@ -16,7 +16,6 @@ namespace RazorPagesUser.Pages
             //users = UserService.GetAll();
             
             
-            NewUser = userService.Get("Test");
             
         }
 
