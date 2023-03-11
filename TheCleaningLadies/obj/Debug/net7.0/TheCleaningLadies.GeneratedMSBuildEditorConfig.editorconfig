@@ -40,7 +40,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/cammi/capstone/capstone-2/TheCleaningLadies/Pages/Privacy.cshtml]
+=======
+[D:/Projects/capstone/TheCleaningLadies/Pages/KatiesButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2F0aWVzQnV0dG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/capstone/TheCleaningLadies/Pages/Privacy.cshtml]
+>>>>>>> 942029972419bc5827f9aeb8c65857bf36c7379c
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
