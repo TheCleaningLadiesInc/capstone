@@ -1,4 +1,7 @@
 using RazorPagesUser.Models;
+using System;
+using System.Security.Cryptography;
+using System.Text;
 using MongoDB.Driver;
 
 namespace RazorPagesUser.Services;
@@ -26,6 +29,54 @@ public class UserService
     }
     
     //public static List<User> GetAll() => User;
+    
+    public bool LogIn(string username, string password){
+        var sha256 = SHA256.Create();
+        var toBytes = Encoding.UTF8.GetBytes(password);
+        var theHash = sha256.ComputeHash(toBytes);
+        var passwordToCheck = BitConverter.ToString(theHash).Replace("-", "");
+
+        try
+        {
+            if (Get(username).password == passwordToCheck)
+            {
+                return true;
+            }
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
+
+        return false;
+    }
+
+    public void CreateLoginSession(string cookieID, string username, string password)
+    {
+        User user = Get(username);
+        user.sessionID = cookieID;
+        Update(username, user);
+    }
+
+    public bool CheckCookie(string cookieID)
+    {
+        if(theUsers.Find(user => user.sessionID == cookieID).FirstOrDefault() != null)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public void LogOut(string cookieID)
+    {
+        User loggingOut = theUsers.Find(user => user.sessionID == cookieID).FirstOrDefault();
+
+        if (loggingOut != null)
+        {
+            loggingOut.sessionID = "";
+            Update(loggingOut.username, loggingOut);
+        }
+    }
 
     //public static User? Get(string id) => theUsers.FirstOrDefault(u => u.id == id);
     public User Get(string username) => theUsers.Find(user => user.username == username).FirstOrDefault();
@@ -34,6 +85,10 @@ public class UserService
 
     public User Create(User user)
     {
+        var sha256 = SHA256.Create();
+        var toBytes = Encoding.UTF8.GetBytes(user.password);
+        var theHash = sha256.ComputeHash(toBytes);
+        user.password = BitConverter.ToString(theHash).Replace("-", "");
         theUsers.InsertOne(user);
         return user;
     }
