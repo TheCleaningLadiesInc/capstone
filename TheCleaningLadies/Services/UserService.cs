@@ -29,6 +29,20 @@ public class UserService
     }
     
     //public static List<User> GetAll() => User;
+
+    public bool CreateAccount(string username, string password)
+    {
+        if(Get(username) == null) {
+            User user = new User();
+            user.username = username;
+            user.password = password;
+            Create(user);
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
     
     public bool LogIn(string username, string password){
         var sha256 = SHA256.Create();
