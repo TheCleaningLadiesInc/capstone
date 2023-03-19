@@ -57,12 +57,17 @@ public class UserService
                 return true;
             }
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             return false;
         }
 
         return false;
+    }
+
+    public User GetUserBySessionID(string sessionID)
+    {
+        return theUsers.Find(user => user.sessionID == sessionID).FirstOrDefault();
     }
 
     public void CreateLoginSession(string cookieID, string username, string password)
